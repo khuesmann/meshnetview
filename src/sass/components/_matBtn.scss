@@ -1,0 +1,37 @@
+.mat-btn {
+  width: 62px;
+  height: 62px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 2px 2px 8px -3px #000;
+  transition: box-shadow 0.2s;
+
+  i {
+    font-size: 28px;
+    display: inline-block;
+    margin-top: 16px;
+  }
+
+  &:hover {
+    box-shadow: 2px 2px 16px -3px #000;
+  }
+}
+
+.mat-btn-success {
+  background-color: $brand-info;
+  color: white;
+  &:hover {
+    color: white;
+    background-color: darken($brand-info, 13%);
+  }
+  &.active {
+    background-color: darken($brand-info, 13%);
+    box-shadow: 2px 2px 16px -3px #000;
+  }
+}
+
+.mat-btn:hover {
+
+}

@@ -1,0 +1,4 @@
+node_modules
+.idea
+src/js/env.js
+build

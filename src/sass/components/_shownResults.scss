@@ -1,0 +1,32 @@
+.timelineInfo {
+  position: fixed;
+  width: 380px;
+  top: 110px;
+  right: 25px;
+
+  @media(max-width: $screen-xs-max) {
+    bottom: 135px
+  }
+
+  .well {
+    max-height: 500px;
+    overflow: scroll;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0px 0px 6px white;
+    @media(max-height: 725px) {
+      max-height: 300px;
+    }
+    @media(max-height: 530px) {
+      max-height: 100px;
+    }
+    @media(max-width: $screen-sm-max) {
+      width: 75%;
+      float: right;
+    }
+  }
+
+  .timelineInfoFilter {
+    font-size: 12px;
+  }
+
+}

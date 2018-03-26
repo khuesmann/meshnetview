@@ -1,0 +1,80 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.form-control {
+  padding: 6px 8px;
+}
+
+.ui-select-display {
+  overflow: hidden;
+}
+
+#app {
+  margin-top: 50px;
+}
+
+.panel-heading {
+  a {
+    b {
+      color: $text-color;
+      &:hover {
+        //color: lighten($text-color, 10%)
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+
+.form-control {
+  border-radius: 0 !important;
+}
+
+td {
+  padding: 4px;
+}
+
+.hide-on-loading {
+  display: none !important;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.messages {
+  padding-top: 12px !important;
+  padding-bottom: 13px !important;
+  i, span {
+    float: left;
+  }
+  span {
+    margin: 5px 0 0 7px;
+  }
+}
+
+.bootstrap-select {
+  .btn-default {
+    color: #333333 !important;;
+    background-color: #fff !important;;
+    border: 1px solid #ccc !important;;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;;
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;;
+  }
+}
+
+.panel {
+  transition: border-color 0.2s ease-in;
+  .panel-heading {
+    * {
+      transition: background-color 0.2s ease-in;
+    }
+  }
+}

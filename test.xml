@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<experiment>
+    <general></general>
+    <actions></actions>
+    <results>
+        <replication id="40">
+            <iteration id="0">
+                <variableValues>
+                    <variableValue name="runner" value="1337"/>
+                </variableValues>
+                <action_block id="0">
+                    <action id="0">
+                        <invocation startedAfter="2016-11-05 10:00:00.000 +00:00" endedBefore="2016-11-05 10:10:00.00 +00:00">
+                            <node>node1</node>
+                            <result>{"metric1":"100","metric2":"100","destination":"10.0.0.2"}</result>
+                            <result>{"metric1":"1","metric2":"1","destination":"10.0.0.3"}</result>
+                            <result>{"metric1":"50","metric2":"50","destination":"00:00:00:00:00:04"}</result>
+                        </invocation>
+                        <invocation startedAfter="2016-11-05 10:10:00.000 +00:00" endedBefore="2016-11-05 10:20:00.00 +00:00">
+                            <node>node2</node>
+                            <result>{"metric1":"100","metric2":"50","destination":"10.0.0.1"}</result>
+                            <result>{"metric1":"1","metric2":"50","destination":"10.0.0.3"}</result>
+                            <result>{"metric1":"50","metric2":"100","mac-destination":"00:00:00:00:00:04"}</result>
+                        </invocation>
+                    </action>
+                </action_block>
+            </iteration>
+        </replication>
+    </results>
+    <hardware>
+        <testbeds name="EVALTestbed"></testbeds>
+        <nodes>
+            <node id="NODE1">
+                <building>Einsteinstraße 62</building>
+                <level>8</level>
+                <room>802b</room>
+                <locationX>7.603257</locationX>
+                <locationY>51.965828</locationY>
+                <locationZ>0</locationZ>
+                <testbedName>EVALTestbed</testbedName>
+                <nodetype>router</nodetype>
+                <switchName>HP54MATHE-090-1</switchName>
+                <description>Sensor</description>
+                <interfaces>
+                    <interface>
+                        <macAddress>00:00:00:00:00:01</macAddress>
+                        <ipv4Address>10.0.0.1</ipv4Address>
+                    </interface>
+                </interfaces>
+            </node>
+            <node id="NODE2">
+                <building>Einsteinstraße 62</building>
+                <level>8</level>
+                <room>802b</room>
+                <locationX>7.603248 </locationX>
+                <locationY>51.966257</locationY>
+                <locationZ>0</locationZ>
+                <testbedName>EVALTestbed</testbedName>
+                <nodetype>router</nodetype>
+                <switchName>HP54MATHE-090-1</switchName>
+                <description>Sensor</description>
+                <interfaces>
+                    <interface>
+                        <macAddress>00:00:00:00:00:02</macAddress>
+                        <ipv4Address>10.0.0.2</ipv4Address>
+                    </interface>
+                </interfaces>
+            </node>
+            <node id="NODE3">
+                <building>Einsteinstraße 62</building>
+                <level>8</level>
+                <room>808</room>
+                <locationX>7.603458</locationX>
+                <locationY>51.966254</locationY>
+                <locationZ>0</locationZ>
+                <testbedName>EVALTestbed</testbedName>
+                <nodetype>router</nodetype>
+                <switchName>None</switchName>
+                <description>None</description>
+                <interfaces>
+                    <interface>
+                        <macAddress>00:00:00:00:00:03</macAddress>
+                        <ipv4Address>10.0.0.3</ipv4Address>
+                    </interface>
+                </interfaces>
+            </node>
+            <node id="NODE4">
+                <building>Einsteinstraße 62</building>
+                <level>8</level>
+                <room>810</room>
+                <locationX>7.603465</locationX>
+                <locationY>51.965830</locationY>
+                <locationZ>0</locationZ>
+                <testbedName>EVALTestbed</testbedName>
+                <nodetype>router</nodetype>
+                <switchName>None</switchName>
+                <description>Sensor</description>
+                <interfaces>
+                    <interface>
+                        <macAddress>00:00:00:00:00:04</macAddress>
+                        <ipv4Address>10.0.0.4</ipv4Address>
+                    </interface>
+                </interfaces>
+            </node>
+        </nodes>
+    </hardware>
+    <scans></scans>
+</experiment>

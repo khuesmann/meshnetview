@@ -1,0 +1,36 @@
+{
+  "name": "mesh-net-v",
+  "version": "0.0.1",
+  "description": "3d visualisation of mesh networks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karim Huesmann",
+  "license": "MIT",
+  "devDependencies": {
+    "babylonjs": "^2.3.0",
+    "bootstrap-sass": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1",
+    "handjs": "^1.3.11",
+    "laravel-elixir": "^6.0.0-11",
+    "laravel-elixir-livereload": "^1.1.6",
+    "laravel-elixir-vue-2": "^0.2.0",
+    "laravel-elixir-webpack-official": "^1.0.2",
+    "vue": "^2.0.1",
+    "vue-resource": "^1.0.3",
+    "vuex": "^2.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.15.2",
+    "bootstrap-select": "^1.11.2",
+    "chroma-js": "^1.2.1",
+    "handjs": "^1.3.11",
+    "jquery": "^3.1.1",
+    "mathjs": "^3.5.3",
+    "moment": "^2.15.1",
+    "toastr": "^2.1.2",
+    "utm": "^1.0.1"
+  }
+}
